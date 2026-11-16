@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="robots" content="noindex, nofollow" />
-    <script>try{var q=new URLSearchParams(location.search).get('palette');if(/^[abc]$/.test(q||''))localStorage.setItem('pl-palette',q);var p=localStorage.getItem('pl-palette');if(/^[abc]$/.test(p||''))document.documentElement.dataset.palette=p;}catch(e){}</script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -24,14 +24,13 @@
       // GitHub Pages sends deep links to 404.html, which stores the path here
       try { var r = sessionStorage.getItem('pl-redirect'); if (r) { sessionStorage.removeItem('pl-redirect'); history.replaceState(null, '', r); } } catch (e) {}
     </script>
-    <script type="module" crossorigin src="/assets/index-WKP5Ah0j.js"></script>
+    <script type="module" crossorigin src="/assets/index-v08sEg2w.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/react-BhQ8IATC.js">
     <link rel="modulepreload" crossorigin href="/assets/radix-CIyOkZrX.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-Bs9BIowh.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-B3W-APhB.css">
   </head>
   <body>
     <div id="root"></div>
   <div aria-hidden="true" style="position:fixed;top:0;left:50%;transform:translateX(-50%);z-index:2147483647;pointer-events:none;background:#d9480f;color:#fff;font:700 11px/1 system-ui,sans-serif;letter-spacing:.12em;padding:4px 12px;border-radius:0 0 6px 6px;box-shadow:0 1px 3px rgba(0,0,0,.3)">STAGING</div>
-<div id="pl-palette-switch" role="group" aria-label="Palette (staging)" style="position:fixed;left:10px;bottom:72px;z-index:2147483646;display:flex;gap:2px;padding:3px;border-radius:999px;background:rgba(20,22,28,.82);font:600 11px/1 system-ui,sans-serif"><button type="button" data-p="a" style="all:unset;cursor:pointer;color:#fff;padding:5px 9px;border-radius:999px">A</button><button type="button" data-p="b" style="all:unset;cursor:pointer;color:#fff;padding:5px 9px;border-radius:999px">B</button><button type="button" data-p="c" style="all:unset;cursor:pointer;color:#fff;padding:5px 9px;border-radius:999px">C</button></div><script>(function(){var w=document.getElementById("pl-palette-switch");function paint(){var c=document.documentElement.dataset.palette||"a";w.querySelectorAll("button").forEach(function(b){b.style.background=b.dataset.p===c?"#fff":"transparent";b.style.color=b.dataset.p===c?"#111":"#fff";});}w.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;document.documentElement.dataset.palette=b.dataset.p;try{localStorage.setItem("pl-palette",b.dataset.p);}catch(x){}var u=new URL(location.href);u.searchParams.set("palette",b.dataset.p);history.replaceState(history.state,"",u);paint();});paint();})();</script>
   </body>
 </html>
