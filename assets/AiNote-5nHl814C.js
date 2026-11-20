@@ -1,0 +1,1 @@
+import{j as t}from"./radix-B3TaGH3A.js";import{u as a,b5 as r,b4 as n,c as o}from"./index-B0KOIrkz.js";function u({className:s}){const{t:e}=a();return t.jsxs("p",{"data-ai-note":!0,className:o("flex items-start gap-1.5 text-xs leading-snug text-muted-foreground",s),children:[t.jsx(r,{className:"mt-px h-3.5 w-3.5 shrink-0","aria-hidden":!0}),e(n.aiNote)]})}export{u as A};
