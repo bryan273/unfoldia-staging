@@ -1,1 +1,0 @@
-const t={step:5,min:5,max:200,per:{cny:2,vnd:6e3,idr:4e3}},s=(a,e=t)=>Math.min(e.max,Math.max(e.min,Math.round((Number(a)||0)/e.step)*e.step)),r=(a,e,n=t)=>a*(n.per[e]??t.per[e]),m=[5,10,20,50,100,200];export{m as F,t as a,s as c,r as f};
